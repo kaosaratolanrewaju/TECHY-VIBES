@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaosarat Olanrewaju — Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #0d9488; /* Teal header */
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    /* --- Hero Section (Split Layout) --- */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 70px 10%;
+      background: linear-gradient(135deg, #e0f2f1, #ffffff);
+      gap: 50px;
+    }
+
+    .hero-text {
+      flex: 1 1 400px;
+      max-width: 500px;
+      text-align: left;
+    }
+
+    .hero-text h2 {
+      font-size: 2.5rem;
+      color: #0f766e;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      color: #374151;
+      margin-bottom: 25px;
+    }
+
+    .hero-text a {
+      display: inline-block;
+      background: #0d9488;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .hero-text a:hover {
+      background: #115e59;
+      transform: scale(1.05);
+    }
+
+    .hero img {
+      flex: 1 1 350px;
+      max-width: 350px;
+      border-radius: 50%;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      transition: transform 0.4s ease;
+    }
+
+    .hero img:hover {
+      transform: scale(1.03);
+    }
+
+    section {
+      padding: 70px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #0f766e;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      color: #4b5563;
+      margin-bottom: 25px;
+    }
+
+    /* --- Contact Section --- */
+    .contact-section {
+      background: linear-gradient(135deg, #ecfeff, #ffffff);
+      text-align: center;
+      padding: 80px 20px;
+      border-top: 1px solid #d1fae5;
+    }
+
+    .contact-section h2 {
+      font-size: 2rem;
+      color: #0f766e;
+      margin-bottom: 15px;
+    }
+
+    .contact-section p {
+      color: #374151;
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background: #0d9488;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .contact-btn:hover {
+      background: #115e59;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #0f766e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: #a7f3d0;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+
+      .hero-text {
+        text-align: center;
+      }
+
+      .hero img {
+        max-width: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kaosarat Olanrewaju</h1>
+    <p>Petroleum Engineering Student | Data Analytics Enthusiast | Energy Innovator</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hi, I’m Kaosarat Pelumi — a Petroleum Engineering student at FUPRE with a passion for using data analytics to transform the energy sector. I bridge technical expertise and data-driven insights to solve real-world challenges.</p>
+      <a href="#contact">Get in Touch</a>
+    </div>
+
+    <img src="Screenshot 2025-10-22 162433.png" alt="Kaosarat Olanrewaju">
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m passionate about leveraging data analytics to enhance petroleum operations and decision-making. I’m currently mastering Python, SQL, and Power BI to interpret energy data and improve project efficiency. I also enjoy sharing insights on LinkedIn about the intersection of data and energy innovation.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <p>Python • SQL • Power BI • Data Visualization • Petroleum Production Systems • Reservoir Engineering Basics</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects & Achievements</h2>
+    <p>• Created a Power BI dashboard analyzing oil production trends.<br>
+       • Participated in SPE FUPRE’s digital transformation initiatives.<br>
+       • Recipient of the TechCrush Africa Scholarship for innovation learning.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>Let's connect! Whether it's about petroleum engineering, data analytics, or collaboration — reach me through any of these channels:</p>
+
+    <div class="contact-links">
+      <a href="mailto:pelumiolanrewaju55@gmail.com" target="_blank" class="contact-btn">📧 Email Me</a>
+      <a href="https://www.linkedin.com/in/kaosarat-olanrewaju-60a78629b" target="_blank" class="contact-btn">💼 LinkedIn Profile</a>
+      <a href="https://wa.me/2349047648210" target="_blank" class="contact-btn">💬 WhatsApp Me</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Kaosarat Olanrewaju | Designed with ❤️ using HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
