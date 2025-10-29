@@ -16,5 +16,5 @@ I’m exploring how data-driven insights can improve sustainability, efficiency,
 - GitHub for project hosting
 
 ## 🌐 Connect with Me
-- LinkedIn: [linkedin.com/in/kaosaratpelumi](https://linkedin.com/in/kaosaratolanrewaju)
+- LinkedIn: [linkedin.com/in/kaosaratolanrewaju](https://linkedin.com/in/kaosaratolanrewaju)
 - GitHub: [github.com/kaosaratolanrewaju](https://github.com/kaosaratolanrewaju)
